@@ -103,7 +103,7 @@ int main() {
     int MIN = 0;
     int MAX = 4000000;
     for (int y=MIN; y <= MAX; y++) {
-        if (sumRowNearSensors(y, MIN, MAX, true) <= MAX) {
+        if (sumRowNearSensors(y, MIN, MAX, true) < MAX) {
             cout << "Row with empty loc: " << y << endl;
             break;
         }

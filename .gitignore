@@ -1,5 +1,5 @@
 .idea
 cmake-build-debug/
-*.txt
+/**/day*.txt
 !*.sample.txt
 /main.cpp
